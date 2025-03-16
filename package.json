@@ -1,0 +1,28 @@
+{
+  "name": "simple-api",
+  "version": "1.0.0",
+  "description": "api made with express and typescript",
+  "main": "index.ts",
+  "type": "module",
+  "exports": "./dist/index.mjs",
+  "scripts": {
+    "build": "pkgroll",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/index.mjs",
+    "dev": "tsx watch src/index.ts"
+  },
+  "keywords": [
+    "express",
+    "node",
+    "typescript"
+  ],
+  "author": "Yeferson Toloza",
+  "license": "MIT",
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "express": "^4.21.2",
+    "pkgroll": "^2.11.2",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}
